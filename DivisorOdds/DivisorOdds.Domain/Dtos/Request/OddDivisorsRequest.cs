@@ -6,6 +6,6 @@ namespace DivisorOdds.Domain.Dtos.Request
 {
     public sealed class OddDivisorsRequest
     {
-        public int Number { get; set; }
+        public int number { get; set; }
     }
 }

@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DivisorOdds.Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/divisorodds")]
     [ApiController]
     public class DivisorOddsController : ControllerBase
     {

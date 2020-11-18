@@ -18,7 +18,7 @@ namespace DivisorOdds.Domain.Handlers
         }
         public GenericResult CalculateOddDivisors(OddDivisorsRequest request)
         {
-            var oddDivisor = new NumberEntity(request.Number);
+            var oddDivisor = new NumberEntity(request.number);
             if (oddDivisor.Invalid)
             {
                 return new GenericResult() { success = false, message = "Erro ao calcular os divisores.", data = oddDivisor.Notifications };

@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisorOdds.Presentation", "DivisorOdds.Presentation\DivisorOdds.Presentation.csproj", "{477C8486-3FB1-4C1B-B242-5912884E4614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisorOdds.Presentation", "DivisorOdds.Presentation\DivisorOdds.Presentation.csproj", "{477C8486-3FB1-4C1B-B242-5912884E4614}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - DivisorOddsPresentation", "4 - DivisorOddsPresentation", "{5855A82D-B666-4487-8C5F-25BC83EFADAB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DivisorOdds.Presentation", "3 - DivisorOdds.Presentation", "{5855A82D-B666-4487-8C5F-25BC83EFADAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DivisorOdds.Domain", "1 - DivisorOdds.Domain", "{B8158519-9DBA-4C6E-B029-13C348BD5ECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisorOdds.Domain", "DivisorOdds.Domain\DivisorOdds.Domain.csproj", "{2229CEF9-0AB7-41DB-B415-4C5B5C038A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisorOdds.Domain", "DivisorOdds.Domain\DivisorOdds.Domain.csproj", "{2229CEF9-0AB7-41DB-B415-4C5B5C038A1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - DivisorOdds.CrossCutting", "2 - DivisorOdds.CrossCutting", "{F0286393-A732-49C9-B846-09BD83A7FD3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisorOdds.CrossCutting", "DivisorOdds.CrossCutting\DivisorOdds.CrossCutting.csproj", "{D8AB5FF9-50FE-4846-9722-86CC1ADA0383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisorOdds.CrossCutting", "DivisorOdds.CrossCutting\DivisorOdds.CrossCutting.csproj", "{D8AB5FF9-50FE-4846-9722-86CC1ADA0383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisorOdds.Test", "DivisorOdds.Test\DivisorOdds.Test.csproj", "{65F5541F-F891-40A0-A616-E801AABDAD17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - DivisorOdds.Test", "4 - DivisorOdds.Test", "{1E4A27CA-AD81-4410-B3A6-06F838D614D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{D8AB5FF9-50FE-4846-9722-86CC1ADA0383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8AB5FF9-50FE-4846-9722-86CC1ADA0383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8AB5FF9-50FE-4846-9722-86CC1ADA0383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F5541F-F891-40A0-A616-E801AABDAD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F5541F-F891-40A0-A616-E801AABDAD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F5541F-F891-40A0-A616-E801AABDAD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F5541F-F891-40A0-A616-E801AABDAD17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{477C8486-3FB1-4C1B-B242-5912884E4614} = {5855A82D-B666-4487-8C5F-25BC83EFADAB}
 		{2229CEF9-0AB7-41DB-B415-4C5B5C038A1E} = {B8158519-9DBA-4C6E-B029-13C348BD5ECF}
 		{D8AB5FF9-50FE-4846-9722-86CC1ADA0383} = {F0286393-A732-49C9-B846-09BD83A7FD3C}
+		{65F5541F-F891-40A0-A616-E801AABDAD17} = {1E4A27CA-AD81-4410-B3A6-06F838D614D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1519BE4-702C-4A6B-A2BE-0556B1AD20FC}

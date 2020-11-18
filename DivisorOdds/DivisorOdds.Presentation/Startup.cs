@@ -40,6 +40,8 @@ namespace DivisorOdds.Presentation
             services.ConfigureJwtTokenService(Configuration);
             services.ConfigureSwaggerService();
             services.Configure<Token>(Configuration.GetSection("TokenConfigurations"));
+            services.AddRouting(options => options.LowercaseUrls = true);
+            services.ConfigureCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,6 +62,7 @@ namespace DivisorOdds.Presentation
             {
                 app.UseHsts();
             }
+
             app.UseSwagger();
             app.UseException();
             app.UseHttpsRedirection();
